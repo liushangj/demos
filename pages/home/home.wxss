@@ -1,0 +1,30 @@
+/* pages/home/home.wxss */
+.slide0,.slide1,.slide2{
+  height: 100%;
+}
+.slide0{
+  background: #acd;
+}
+.slide1{
+  background: #ccc;
+}
+.slide2{
+  background: pink;
+}
+.swiper-nav{
+  display: flex;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center
+}
+.nav-item{
+  flex: 1;
+  background: #000;
+  color: #fff;
+  float: left
+}
+.active{
+  background: #fff;
+  color: #000;
+  
+}
