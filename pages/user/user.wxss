@@ -1,0 +1,22 @@
+/* pages/user/user.wxss */
+.open-map{
+  margin: 10px;
+  width: 100rpx;
+  height: 100rpx;
+}
+.user-box{
+  background: #ccc;
+}
+.user-box image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.user-box view{
+  color: papayawhip;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center
+}

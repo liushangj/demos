@@ -3,10 +3,11 @@
   <view class='swiper-nav' bindtap='handleTap'>
     <view class="{{index===idx ? active :nomal}}" data-id="{{index}}" wx:for="{{lists}}" >{{item}}</view>    
   </view>
-  <swiper indicator-dots bindchange="handleSwiper" current="{{idx}}">
+  <swiper  bindchange="handleSwiper" current="{{idx}}">
       <swiper-item class='slide0'>现场</swiper-item>
       <swiper-item class='slide1'>生活</swiper-item>
       <swiper-item class='slide2'>讨论</swiper-item>  
   </swiper>
 
+  
 </view>

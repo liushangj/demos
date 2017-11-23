@@ -1,0 +1,10 @@
+<!--pages/user/user.wxml-->
+<view >
+  <view class='user-box'>
+    <image src='{{userUrl}}' catchtap='chooseImg'></image> 
+    <view class='username'>用户名....</view>
+  </view>
+  
+  <image class='open-map' bindtap='openMap' src='/static/imgs/place.jpg'></image>
+  <view>{{address}}</view>
+</view>
